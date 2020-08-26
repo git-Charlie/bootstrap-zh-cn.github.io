@@ -1,92 +1,170 @@
 - title: Getting started
+  translated_title: 立即开始
   pages:
     - title: Introduction
+      translated_title: 介绍
     - title: Download
+      translated_title: 下载
     - title: Contents
+      translated_title: 内容
     - title: Browsers & devices
+      translated_title: 浏览器和设备兼容性
     - title: JavaScript
+      translated_title: JavaScript
     - title: Theming
+      translated_title: 主题
     - title: Build tools
+      translated_title: 构建工具
     # - title: Best practices # TODO: Write this content
+    # - translated_title: 最好的训练
     - title: Webpack
+      translated_title: Webpack
     - title: Accessibility
+      translated_title: 辅助功能
 
 - title: Layout
+  translated_title: 布局
   pages:
     - title: Overview
+      translated_title: 概述
     - title: Grid
+      translated_title: 网格
     - title: Utilities for layout
+      translated_title: 布局杂项
 
 - title: Content
+  translated_title: 内容
   pages:
     - title: Reboot
+      translated_title: 初始化
     - title: Typography
+      translated_title: 排版
     - title: Code
+      translated_title: 代码
     - title: Images
+      translated_title: 图片
     - title: Tables
+      translated_title: 表格
     - title: Figures
+      translated_title: 图文
 
 - title: Components
+  translated_title: 组件
   pages:
     - title: Alerts
+      translated_title: 提示
     - title: Badge
+      translated_title: 徽章
     - title: Breadcrumb
+      translated_title: 面包屑
     - title: Buttons
+      translated_title: 按钮
     - title: Button group
+      translated_title: 按钮组
     - title: Card
+      translated_title: 卡片
     - title: Carousel
+      translated_title: 旋转木马
     - title: Collapse
+      translated_title: 折叠
     - title: Dropdowns
+      translated_title: 下拉菜单
     - title: Forms
+      translated_title: 表单
     - title: Input group
+      translated_title: 输入组
     - title: Jumbotron
+      translated_title: 大屏幕
     - title: List group
+      translated_title: 列表
     - title: Media object
+      translated_title: 图文
     - title: Modal
+      translated_title: 弹出框
     - title: Navs
+      translated_title: 导航
     - title: Navbar
+      translated_title: 导航栏
     - title: Pagination
+      translated_title: 分页
     - title: Popovers
+      translated_title: 弹出提示
     - title: Progress
+      translated_title: 进度条
     - title: Scrollspy
+      translated_title: 滚动监听
     - title: Spinners
+      translated_title: 旋转符号
     - title: Toasts
+      translated_title: 弹出提示
     - title: Tooltips
+      translated_title: 工具提示
 
 - title: Utilities
+  translated_title: 杂项
   pages:
     - title: Borders
+      translated_title: 边框
     - title: Clearfix
+      translated_title: 清除浮动
     - title: Close icon
+      translated_title: 关闭按钮
     - title: Colors
+      translated_title: 颜色
     - title: Display
+      translated_title: 显示
     - title: Embed
+      translated_title: 扩展
     - title: Flex
+      translated_title: 弹性布局
     - title: Float
+      translated_title: 浮动
     - title: Image replacement
+      translated_title: 图像替换
     - title: Interactions
+      translated_title: 选择
     - title: Overflow
+      translated_title: 溢出
     - title: Position
+      translated_title: 定位
     - title: Screen readers
+      translated_title: 屏幕阅读器
     - title: Shadows
+      translated_title: 阴影
     - title: Sizing
+      translated_title: 大小
     - title: Spacing
+      translated_title: 间隔
     - title: Stretched link
+      translated_title: 链接延伸
     - title: Text
+      translated_title: 文本
     - title: Vertical align
+      translated_title: 垂直对齐
     - title: Visibility
+      translated_title: 可见
 
 - title: Extend
+  translated_title: 延伸
   pages:
     - title: Approach
+      translated_title: 方法
     - title: Icons
+      translated_title: 图标
 
 - title: Migration
+  translated_title: 迁移
 
 - title: About
+  translated_title: 关于
   pages:
     - title: Overview
+      translated_title: 概述
     - title: Team
+      translated_title: 团队
     - title: Brand
+      translated_title: 标志
     - title: License
+      translated_title: 协议和许可
     - title: Translations
+      translated_title: 翻译

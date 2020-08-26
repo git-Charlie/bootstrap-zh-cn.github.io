@@ -19,7 +19,7 @@
 
   <div class="bd-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
       <a class="bd-toc-link" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ link_slug }}{% if link_slug %}/{% endif %}">
-        {{ group.title }}
+        {{ group.translated_title }} <small>{{ group.title }}</small>
       </a>
 
       <ul class="nav bd-sidenav">
@@ -33,7 +33,7 @@
 
           <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
             <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/{{ group_slug }}/{{ doc_slug }}/">
-              {{ doc.title }}
+              {{ doc.translated_title }} <small>{{ doc.title }}</small>
             </a>
           </li>
         {%- endfor -%}
