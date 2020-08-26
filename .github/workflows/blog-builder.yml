@@ -32,7 +32,7 @@ jobs:
         run: npm run docs-build
 
       - name: Clear Previous Build
-        run: rf -rf docs/
+        run: rm -rf docs/
 
       - name: Move _gh_page/ to docs/
         run: mv _gh_page/ docs/
