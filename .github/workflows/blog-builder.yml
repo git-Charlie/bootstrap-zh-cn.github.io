@@ -1,0 +1,51 @@
+name: "Site Build"
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: "Site Build"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - name: Install Node.js Dependencies
+        run: npm install
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Install Ruby Dependencies
+        run: bundle install
+
+      - name: Build site
+        run: npm run docs-build
+
+      - name: Clear Previous Build
+        run: rf -rf docs/
+
+      - name: Move _gh_page/ to docs/
+        run: mv _gh_page/ docs/
+
+      - name: Publish
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.KEY }}" > ~/.ssh/id_rsa.pub
+          chmod 600 ~/.ssh/id_rsa.pub
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "Site Deploy Bot"
+          git config --global user.email "nobody@nobody.nobody"
+          git config --global core.quotepath false
+          git add docs/
+          git commit -m "Site Build"
+          git push origin master
