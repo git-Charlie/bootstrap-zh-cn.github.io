@@ -28,17 +28,20 @@ jobs:
       - name: Install Ruby Dependencies
         run: bundle install
 
+      - name: Clear Previous Build
+        run: rm -rf docs/
+
       - name: Build site
         run: |
           npm run css-docs
           npm run js-docs
           npm run docs-build
 
-      - name: Clear Previous Build
-        run: rm -rf docs/
-
       - name: Move _gh_pages/ to docs/
         run: mv _gh_pages/ docs/
+
+      - name: Copy Bootstrap Build
+        run: cp -r dist docs/docs/4.5
 
       - name: Publish
         run: |
