@@ -1,7 +1,7 @@
 ---
 layout: simple
-title: Versions
-description: An appendix of hosted documentation for nearly every release of Bootstrap, from v1 through v4.
+title: 版本
+description: 由 v1 到 v4 的几乎所有已部署的 Bootstrap 版本。
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ description: An appendix of hosted documentation for nearly every release of Boo
       {% if version.v == site.docs_version %}
         <a class="list-group-item list-group-item-action py-2 text-primary d-flex justify-content-between align-items-center" href="{{ release.baseurl }}/{{ version.v }}/">
           {{ version.v }}
-          <span class="badge badge-primary">Latest</span>
+          <span class="badge badge-primary">最新</span>
         </a>
       {% else %}
         <a class="list-group-item list-group-item-action py-2 text-primary" href="{{ release.baseurl }}/{{ version.v }}/">

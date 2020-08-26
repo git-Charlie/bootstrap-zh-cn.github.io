@@ -1,6 +1,6 @@
 - group: v1.x
   baseurl: https://getbootstrap.com
-  description: Every minor and patch release from v1 is listed below.
+  description: 低于 v1 的版本在下方列出。
   versions:
     - v: 1.0.0
     - v: 1.1.0
@@ -11,7 +11,7 @@
 
 - group: v2.x
   baseurl: https://getbootstrap.com
-  description: Every minor and patch release from v2 is listed below.
+  description: 低于 v2 的版本在下方列出。
   versions:
     - v: 2.0.0
     - v: 2.0.1
@@ -29,14 +29,14 @@
 
 - group: v3.x
   baseurl: https://getbootstrap.com/docs
-  description: Our previous major release and its minor versions. Last update was v3.4.1.
+  description: 我们先前的主次版本。最新版本为 v3.4.1
   versions:
     - v: 3.3
     - v: 3.4
 
 - group: v4.x
   baseurl: https://getbootstrap.com/docs
-  description: Current major release and its minor versions. Last update was v4.5.2.
+  description: 当前的主版本以及其次版本。最新版本为 v4.5.2。
   versions:
     - v: 4.0
     - v: 4.1
