@@ -34,8 +34,8 @@ jobs:
       - name: Clear Previous Build
         run: rm -rf docs/
 
-      - name: Move _gh_page/ to docs/
-        run: mv _gh_page/ docs/
+      - name: Move _gh_pages/ to docs/
+        run: mv _gh_pages/ docs/
 
       - name: Publish
         run: |
