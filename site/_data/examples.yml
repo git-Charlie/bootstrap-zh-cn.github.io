@@ -64,12 +64,12 @@
       translated_name: 
       description: "Single navbar example with a bottom navbar along with some additional content."
 
-- category: Experiments
-  description: "Examples that focus on future-friendly features or techniques."
+- category: 实验
+  description: "注重未来的新特性或技术的示例。"
   examples:
     - name: Floating labels
-      translated_name: 
-      description: "Beautifully simple forms with floating labels over your inputs."
+      translated_name: 浮动标签
+      description: "通过浮动在输入框上的标签美化简单的表单。"
     - name: Offcanvas
-      translated_name: 
-      description: "Turn your expandable navbar into a sliding offcanvas menu."
+      translated_name: 画布
+      description: "将你的可折叠的导航栏变为华东画布菜单。"
