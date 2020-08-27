@@ -1,55 +1,75 @@
-- category: Custom components
-  description: "Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework."
+- category: 自定义组件
+  description: "全新的组件和模板可帮助你快速开始使用 Bootstrap 和演示添加至框架的最佳实践。"
   examples:
     - name: Album
-      description: "Simple one-page template for photo galleries, portfolios, and more."
+      translated_name: 相册
+      description: "为相册、作品集及其它设计的简单单页模板。"
     - name: Pricing
-      description: "Example pricing page built with Cards and featuring a custom header and footer."
+      translated_name: 定价
+      description: "用卡片和自定义的标题和页脚构建的示例定价页。"
     - name: Checkout
-      description: "Custom checkout form showing our form components and their validation features."
+      translated_name: 表单
+      description: "使用我们的表单组件和他们的验证功能的自定义表单。"
     - name: Product
-      description: "Lean product-focused marketing page with extensive grid and image work."
+      translated_name: 产品
+      description: "具有网格和大量图像的精益于产品的营销页。"
     - name: Cover
-      description: "A one-page template for building simple and beautiful home pages."
+      translated_name: 封面
+      description: "用于构建简单和美观的主页的单页模板。"
     - name: Carousel
-      description: "Customize the navbar and carousel, then add some new components."
+      translated_name: 旋转木马
+      description: "自定义的导航栏和旋转木马，并添加一些新组件。"
     - name: Blog
-      description: "Magazine like blog template with header, navigation, featured content."
+      translated_name: 博客
+      description: "有标题、导航和特色内容的像杂志一般的博客模板。"
     - name: Dashboard
-      description: "Basic admin dashboard shell with fixed sidebar and navbar."
+      translated_name: 仪表板
+      description: "有固定位置的边栏和导航栏的基本管理员仪表板外壳。"
     - name: Sign-in
-      description: "Custom form layout and design for a simple sign in form."
+      translated_name: 登录
+      description: "为登录设计的简单自定义表单布局。"
     - name: Sticky footer
-      description: "Attach a footer to the bottom of the viewport when page content is short."
+      translated_name: 贴靠页脚
+      description: "但内容不足时将页脚贴靠至页面底部。"
     - name: Sticky footer navbar
-      description: "Attach a footer to the bottom of the viewport with a fixed top navbar."
+      translated_name: 贴靠页脚和导航
+      description: "将页脚贴靠至页面底部以及固定的导航。"
 
 - category: Framework
   description: "Examples that focus on implementing uses of built-in components provided by Bootstrap."
   examples:
     - name: "Starter template"
+      translated_name: 
       description: "Nothing but the basics: compiled CSS and JavaScript."
     - name: Grid
+      translated_name: 
       description: "Multiple examples of grid layouts with all four tiers, nesting, and more."
     - name: Jumbotron
+      translated_name: 
       description: "Build around the jumbotron with a navbar and some basic grid columns."
 
 - category: Navbars
   description: "Taking the default navbar component and showing how it can be moved, placed, and extended."
   examples:
     - name: Navbars
+      translated_name: 
       description: "Demonstration of all responsive and container options for the navbar."
     - name: Navbar static
+      translated_name: 
       description: "Single navbar example of a static top navbar along with some additional content."
     - name: Navbar fixed
+      translated_name: 
       description: "Single navbar example with a fixed top navbar along with some additional content."
     - name: Navbar bottom
+      translated_name: 
       description: "Single navbar example with a bottom navbar along with some additional content."
 
 - category: Experiments
   description: "Examples that focus on future-friendly features or techniques."
   examples:
     - name: Floating labels
+      translated_name: 
       description: "Beautifully simple forms with floating labels over your inputs."
     - name: Offcanvas
+      translated_name: 
       description: "Turn your expandable navbar into a sliding offcanvas menu."
