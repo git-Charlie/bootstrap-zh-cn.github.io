@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 介绍
-description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
+description: 通过 BootstrapCDN 和入门模板页面立即开始使用 Bootstrap，全球最受欢迎构建响应式、移动端优先的框架。
 group: getting-started
 redirect_from:
   - "/docs/"
@@ -12,13 +12,13 @@ redirect_from:
 toc: true
 ---
 
-## Quick start
+## 快速开始
 
-Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? [Head to the downloads page]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/).
+正在查找如何快速添加 Bootstrap 至你的项目？使用 BootstrapCDN，由 StackPath 的人员免费提供。如需使用包管理器或需要下载源文件，请[前往下载页]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/)。
 
 ### CSS
 
-Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
+复制并粘贴样式表 `<link>` 至你的 `<head>` 中所有其它 CSS 之前。
 
 {% highlight html %}
 <link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
@@ -26,9 +26,9 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 
 ### JS
 
-Many of our components require the use of JavaScript to function. Specifically, they require [jQuery](https://jquery.com/), [Popper.js](https://popper.js.org/), and our own JavaScript plugins. Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.
+不少我们的组件需要 JavaScript 来运行。特别的，它们需要 [jQuery](https://jquery.com/)、[Popper.js](https://popper.js.org/) 以及我们自己的 JavaScript 插件。把以下 `<script>` 标签置于你的页面的几乎最后，就在 `</body>` 标签前来启用它们。jQuery 必须第一个运行，然后 Popper.js，最后我们的 JavaScript 插件。
 
-We use [jQuery's slim build](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/), but the full version is also supported.
+我们使用 [jQuery 的压缩构建](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)，但完整版本也支持。
 
 {% highlight html %}
 <script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
