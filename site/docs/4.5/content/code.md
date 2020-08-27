@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Code
+title: 代码
 description: Documentation and examples for displaying inline and multiline blocks of code with Bootstrap.
 group: content
 toc: true

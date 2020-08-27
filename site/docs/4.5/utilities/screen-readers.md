@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Screen readers
+title: 屏幕阅读器
 description: Use screen reader utilities to hide elements on all devices except screen readers.
 group: utilities
 ---

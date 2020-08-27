@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Text
+title: 文本
 description: Documentation and examples for common text utilities to control alignment, wrapping, weight, and more.
 group: utilities
 toc: true

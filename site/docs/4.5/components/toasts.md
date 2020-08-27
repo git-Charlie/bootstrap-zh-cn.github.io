@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Toasts
+title: 弹出提示
 description: Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.
 group: components
 toc: true

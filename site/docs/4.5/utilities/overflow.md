@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Overflow
+title: 溢出
 description: Use these shorthand utilities for quickly configuring how content overflows an element.
 group: utilities
 ---

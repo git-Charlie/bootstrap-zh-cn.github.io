@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Close icon
+title: 关闭图标
 description: Use a generic close icon for dismissing content like modals and alerts.
 group: utilities
 ---

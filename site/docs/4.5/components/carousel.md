@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Carousel
+title: 旋转木马
 description: A slideshow component for cycling through elements—images or slides of text—like a carousel.
 group: components
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Figures
+title: 图文
 description: Documentation and examples for displaying related images and text with the figure component in Bootstrap.
 group: content
 ---

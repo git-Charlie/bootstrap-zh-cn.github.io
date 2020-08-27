@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Clearfix
+title: 清除浮动
 description: Quickly and easily clear floated content within a container by adding a clearfix utility.
 group: utilities
 ---

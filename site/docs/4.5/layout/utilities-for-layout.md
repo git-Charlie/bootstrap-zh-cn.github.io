@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Utilities for layout
+title: 布局杂项
 description: For faster mobile-friendly and responsive development, Bootstrap includes dozens of utility classes for showing, hiding, aligning, and spacing content.
 group: layout
 toc: true

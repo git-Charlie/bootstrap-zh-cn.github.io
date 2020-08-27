@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Dropdowns
+title: 下拉菜单
 description: Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.
 group: components
 toc: true

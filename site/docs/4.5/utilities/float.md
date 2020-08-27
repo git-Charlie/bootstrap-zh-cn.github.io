@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Float
+title: 浮动
 description: Toggle floats on any element, across any breakpoint, using our responsive float utilities.
 group: utilities
 toc: true

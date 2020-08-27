@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Borders
+title: 边框
 description: Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
 group: utilities
 redirect_from: "/docs/4.5/utilities/"

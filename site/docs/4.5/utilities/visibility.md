@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Visibility
+title: 可见
 description: Control the visibility, without modifying the display, of elements with visibility utilities.
 group: utilities
 ---

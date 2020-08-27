@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Pagination
+title: 分页
 description: Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.
 group: components
 toc: true

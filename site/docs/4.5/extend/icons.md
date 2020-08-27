@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Icons
+title: 图标
 description: Guidance and suggestions for using external icon libraries with Bootstrap.
 group: extend
 ---

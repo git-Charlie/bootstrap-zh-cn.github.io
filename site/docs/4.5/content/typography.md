@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Typography
+title: 排版
 description: Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists, and more.
 group: content
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Input group
+title: 输入组
 description: Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.
 group: components
 toc: true

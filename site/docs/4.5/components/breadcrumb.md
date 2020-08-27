@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Breadcrumb
+title: 面包屑
 description: Indicate the current page's location within a navigational hierarchy that automatically adds separators via CSS.
 group: components
 ---

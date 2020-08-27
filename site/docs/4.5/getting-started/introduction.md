@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Introduction
+title: 介绍
 description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
 group: getting-started
 redirect_from:

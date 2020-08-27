@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Media object
+title: 图文
 description: Documentation and examples for Bootstrap's media object to construct highly repetitive components like blog comments, tweets, and the like.
 group: components
 toc: true

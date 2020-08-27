@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Theming Bootstrap
+title: 对 Bootstrap 自定义样式
 description: Customize Bootstrap 4 with our new built-in Sass variables for global style preferences for easy theming and component changes.
 group: getting-started
 toc: true

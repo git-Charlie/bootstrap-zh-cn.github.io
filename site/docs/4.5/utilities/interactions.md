@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Interactions
+title: 选择
 description: Utility classes that change how users interact with the contents of a website.
 group: utilities
 ---

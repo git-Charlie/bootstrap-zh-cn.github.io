@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: About
+title: 关于
 description: Learn more about the team maintaining Bootstrap, how and why the project started, and how to get involved.
 group: about
 redirect_from:
