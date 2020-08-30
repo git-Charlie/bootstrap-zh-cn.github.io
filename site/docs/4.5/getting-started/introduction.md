@@ -41,11 +41,11 @@ Curious which components explicitly require jQuery, our JS, and Popper.js? Click
 Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https://popper.js.org/), but not [jQuery](https://jquery.com/). For more information about what's included in Bootstrap, please see our [contents]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/contents/#precompiled-bootstrap) section.
 
 <details>
-<summary class="text-primary mb-3">Show components requiring JavaScript</summary>
+<summary class="text-primary mb-3">显示需要 JavaScript 的组件</summary>
 {% capture markdown %}
-- Alerts for dismissing
-- Buttons for toggling states and checkbox/radio functionality
-- Carousel for all slide behaviors, controls, and indicators
+- 可关闭的提示
+- 切换状态和复选/单选框的按钮
+- 所有旋转木马的幻灯片行为、控件和指示
 - Collapse for toggling visibility of content
 - Dropdowns for displaying and positioning (also requires [Popper.js](https://popper.js.org/))
 - Modals for displaying, positioning, and scroll behavior
