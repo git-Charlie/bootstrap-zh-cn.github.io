@@ -46,7 +46,7 @@ Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https:/
 - 可关闭的提示
 - 切换状态和复选/单选框的按钮
 - 所有旋转木马的幻灯片行为、控件和指示
-- Collapse for toggling visibility of content
+- 切换折叠内容的可见性
 - Dropdowns for displaying and positioning (also requires [Popper.js](https://popper.js.org/))
 - Modals for displaying, positioning, and scroll behavior
 - Navbar for extending our Collapse plugin to implement responsive behavior
@@ -57,7 +57,7 @@ Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https:/
 {{ markdown | markdownify }}
 </details>
 
-## Starter template
+## 启动模板
 
 Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:
 
@@ -92,7 +92,7 @@ That's all you need for overall page requirements. Visit the [Layout docs]({{ si
 
 Bootstrap employs a handful of important global styles and settings that you'll need to be aware of when using it, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
 
-### HTML5 doctype
+### HTML5 文档类型声明
 
 Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some funky incomplete styling, but including it shouldn't cause any considerable hiccups.
 
@@ -103,7 +103,7 @@ Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some fun
 </html>
 {% endhighlight %}
 
-### Responsive meta tag
+### 自适应 meta 标签
 
 Bootstrap is developed *mobile first*, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, **add the responsive viewport meta tag** to your `<head>`.
 
@@ -129,17 +129,17 @@ With the above snippet, nested elements—including generated content via `::bef
 
 Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box-sizing/).
 
-### Reboot
+### 初始化
 
 For improved cross-browser rendering, we use [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/reboot/) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
 
-## Community
+## 社区
 
 Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.
 
-- Follow [@getbootstrap on Twitter](https://twitter.com/{{ site.twitter }}).
-- Read and subscribe to [The Official Bootstrap Blog]({{ site.blog }}/).
-- Join [the official Slack room]({{ site.slack }}/).
+- [在 Twitter 上关注 @getbootstrap](https://twitter.com/{{ site.twitter }}).
+- 阅读并订阅 [官方 Bootstrap 博客]({{ site.blog }}/).
+- 加入 [官方 Slack 房间]({{ site.slack }}/).
 - Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
 - Implementation help may be found at Stack Overflow (tagged [`bootstrap-4`](https://stackoverflow.com/questions/tagged/bootstrap-4)).
 - Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/search?q=keywords:bootstrap) or similar delivery mechanisms for maximum discoverability.
