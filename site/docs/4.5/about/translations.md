@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 翻译
-description: Links to community-translated Bootstrap documentation sites.
+description: 由社区翻译的 Bootstrap 文档网站。
 group: about
 ---
 
